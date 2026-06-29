@@ -7,6 +7,7 @@ Data were obtained from the TCGA Uterine Corpus Endometrial Carcinoma (UCEC) dat
 
 - data_mutations.txt — somatic mutation annotation file (MAF format)
 - ucec_tcga_gdc_clinical_data.tsv — clinical metadata
+- To reproduce this analysis, download both files from cBioPortal and place them in the same directory as the notebook before running.
 
 Dataset available at: https://www.cbioportal.org/study/summary?id=ucec_tcga_gdc
 
