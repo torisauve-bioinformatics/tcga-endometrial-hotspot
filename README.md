@@ -11,6 +11,16 @@ Data were obtained from the TCGA Uterine Corpus Endometrial Carcinoma (UCEC) dat
 
 Dataset available at: https://www.cbioportal.org/study/summary?id=ucec_tcga_gdc
 
+# Repository Structure
+tcga-endometrial-hotspot/
+├── README.md
+├── report/
+│   └── TCGA-A5-A0G2_hotspot_report.pdf
+├── notebooks/
+│   └── cohort_analysis.ipynb
+└── figures/
+    └── pole_lollipop.png
+
 # Analysis Overview (Jupyter notebook) 
 - Filters the TCGA UCEC cohort to patients with tumor mutational burden ≥10,000 somatic variants
 - Identifies the most frequently mutated genes across the high-TMB cohort
